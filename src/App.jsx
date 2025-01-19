@@ -5,8 +5,7 @@ import './App.css'
 
 function App() {
 
-  const { count } = useContext(GlobalContext);
-  console.log(count);
+
 
   return (
     <>

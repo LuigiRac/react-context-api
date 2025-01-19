@@ -1,7 +1,11 @@
 import React from "react";
 import { GlobalContext } from '../context/GlobalContext';
 import posts from "../data/posts"
+
 function PostContent() {
+
+    const { count } = useContext(GlobalContext);
+    console.log(count);
     return (
         <>
             <h1>Post List</h1>
