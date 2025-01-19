@@ -1,5 +1,6 @@
 import React from "react";
 import { GlobalContext } from '../context/GlobalContext';
+import { useContext } from "react";
 import posts from "../data/posts"
 
 function PostContent() {
