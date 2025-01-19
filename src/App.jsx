@@ -1,4 +1,4 @@
-import { useContext } from "react"
+import { GlobalContext } from "./context/GlobalContext";
 import PostContent from "./Components/PostContent";
 import './App.css'
 
